@@ -1,10 +1,11 @@
 #include <stdio.h>
-/*
- * main - The Entry Point
+/**
+ * main - Entry point of the program
  *
- * Return: Always 0 success
+ * Description: This function prints a message to the console.
+ *
+ * Return: Always 0 (success)
  */
-
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
