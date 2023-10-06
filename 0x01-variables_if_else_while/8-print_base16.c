@@ -13,11 +13,12 @@ int main(void)
 	char j = 'a';
 
 	for (; i <= 9; i++)
+	{
 		putchar(i);
-
-	for (; j <= 'f'; j++)
-		putchar(j);
-
+		if ( i == 9 )
+			for (; j <= 'f'; j++)
+				putchar(j);
+	}
 	putchar('\n');
 	return (0);
 }
