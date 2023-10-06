@@ -14,6 +14,7 @@ int main(void)
 
 	for (; i <= 9; i++)
 		putchar(i);
+
 	for (; j <= 'f'; j++)
 		putchar(j);
 
