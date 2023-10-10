@@ -15,5 +15,6 @@ int main(void)
 	for (i = 0; word[i] != '\0'; i++)
 		_putchar(word[i]);
 
+	_putchar('\n');
 	return (0);
 }
