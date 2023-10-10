@@ -5,10 +5,8 @@
  *
  * Return: The absolute value
  */
-int _abs(int)
+int _abs(int absoluteValue)
 {
-	int absoluteValue;
-
 	if (absoluteValue < 0)
 		return (absoluteValue * -1);
 }
