@@ -9,7 +9,7 @@
  */
 int print_last_digit(int x)
 {
-	unsigned int lastDigit;
+	long lastDigit;
 
 	if (x < 0)
 	{
