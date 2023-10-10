@@ -5,7 +5,7 @@
  *
  * @c: input
  *
- * Return: 1 if @c id an alphabetic character, 
+ * Return: 1 if @c id an alphabetic character,
  * otherwise 0.
  */
 int _isalpha(int c)
