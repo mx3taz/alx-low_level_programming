@@ -21,7 +21,7 @@ void jack_bauer(void)
 			}
 			else
 			{
-				_putchar((hours % 100) + 48);
+				_putchar((hours / 10) + 48);
 				_putchar((hours % 10) + 48);
 			}
 			_putchar(':');
@@ -32,7 +32,7 @@ void jack_bauer(void)
 			}
 			else
 			{
-				_putchar((minutes % 100) + 48);
+				_putchar((minutes / 10) + 48);
 				_putchar((minutes % 10) + 48);
 			}
 			_putchar('\n');
