@@ -23,23 +23,16 @@ void times_table(void)
 		for (j = 0; j <= 9; j++)
 		{
 			result = i * j;
-			if (j != 9)
+			if (result < 10)
 			{
-				if (result <= 9)
-					{
-						_putchar(result + 48);
-						_putchar(',');
-						_putchar(' ');
-					}
-				else
-				{
-					print_two_digits(result);
-					_putchar(',');
-				}
+				_putchar(result + 48);
+				_putchar(',');
 				_putchar(' ');
 			}
 			else
-				_putchar(result + 48);
+				print_two_digits(result);
+			if (j != 9)
+				_putchar(' ');
 		}
 		_putchar('\n');
 	}
