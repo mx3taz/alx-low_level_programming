@@ -1,15 +1,4 @@
-#include "main.h"
-
-/**
- * print_two_digits - Prints two Digits
- *
- * @result: integer input
- */
-void print_two_digits(int result)
-{
-	_putchar((result / 10) + 48);
-	_putchar((result % 10) + 48);
-}
+#include "main"
 
 /**
  * times_table - Prints the 9 times table, starting with 0 .
@@ -30,7 +19,8 @@ void times_table(void)
 			if (result < 10)
 				_putchar(' ');
 			else
-				print_two_digits(result);
+				_putchar((result / 10) + 48);
+			_putchar((result % 10) + 48);
 		}
 		_putchar('\n');
 	}
