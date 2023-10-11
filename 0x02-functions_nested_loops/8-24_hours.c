@@ -12,7 +12,7 @@ void jack_bauer(void)
 
 	for (hours = 0; hours <= 23; hours++)
 	{
-		for (minutes = 0; minutes <= 59; minutes++;)
+		for (minutes = 0; minutes <= 59; minutes++)
 		{
 			if (hours <= 9)
 			{
