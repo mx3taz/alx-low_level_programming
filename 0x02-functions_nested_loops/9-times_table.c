@@ -29,8 +29,8 @@ void times_table(void)
 			{
 				if (result < 10)
 				{
+					_putchar(result + 48);
 					print_two_digits(result);
-					_putchar(' ');
 				}
 				else
 				{
