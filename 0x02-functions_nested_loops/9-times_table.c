@@ -30,7 +30,10 @@ void times_table(void)
 				_putchar(' ');
 			}
 			else
+			{
 				print_two_digits(result);
+				_putchar(',');
+			}
 			if (j != 9)
 				_putchar(' ');
 		}
