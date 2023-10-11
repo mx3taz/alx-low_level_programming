@@ -16,16 +16,16 @@ void print_two_digits(int result)
  */
 void times_table(void)
 {
-	int i,j, result;
+	int i, j, result;
 
 	for (i = 0; i <= 9; i++)
 	{
 		for (j = 0; j <= 9; j++)
 		{
 			result = i * j;
-			if (j !=9)
+			if (j != 9)
 			{
-				if (result < 10)
+				if (result <= 9)
 					{
 						_putchar(result + 48);
 						_putchar(',');
