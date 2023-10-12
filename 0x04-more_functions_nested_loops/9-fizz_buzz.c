@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * fizz_buzz - Prints the numbers from 1 to 100
+ * main - Prints the numbers from 1 to 100
  *
  * Description: Prints numbers from 1 to 100 :
  * Prints Fizz for multiples of 3
@@ -9,7 +9,7 @@
  * Prints FizzBuzz for multiples of 3 and 5
  */
 
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
@@ -26,4 +26,5 @@ void fizz_buzz(void)
 		if (i != 100)
 			_putchar(' ');
 	}
+	return (0);
 }
