@@ -9,11 +9,11 @@ void puts_half(char *str)
 {
 	int i, j;
 
-	// Calculate the length of the string
+	/* Calculate the length of the string */
 	for (i = 0; str[i] != '\0'; i++)
 		;
 
-	// Print the second half of the string
+	/* Print the second half of the string */
 	if (i % 2 != 0)
 		for (j = (i - 1) / 2; j < i; j++)
 			_putchar(str[j]);
