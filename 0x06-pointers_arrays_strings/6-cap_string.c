@@ -9,7 +9,7 @@
  */
 int _islower(char c)
 {
-	return (c >= 97 && c <= 122)
+	return (c >= 97 && c <= 122);
 }
 
 /**
@@ -31,7 +31,7 @@ int _delimiter(char c)
 }
 
 /**
- * cap_string -Capitalizes all words of a string
+ * cap_string - Capitalizes all words of a string
  *
  * @s: pointer to a string
  *
