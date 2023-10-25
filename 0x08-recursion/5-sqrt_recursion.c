@@ -4,11 +4,10 @@
  * _sqrt_recursion - Returns the natural square root of a number
  *
  * @n: an input integer
- *
+ * @n2 : the square root
  * Return: The natural square root of a number
  */
 int findSquare(int n, int n2);
-
 int _sqrt_recursion(int n)
 {
 	return (findSquare(n, 1));
@@ -17,7 +16,7 @@ int _sqrt_recursion(int n)
 /**
  * findSquare - finds the square root
  * @n: input 1
- * @n2: input 2
+ * @n2: the square root
  * Return: an integer
  */
 int findSquare(int n, int n2)
